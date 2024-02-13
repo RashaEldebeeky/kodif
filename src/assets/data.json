@@ -40,7 +40,8 @@
             {
               "type": "image",
               "data": {
-                "value": "/images/backButton.png"
+                "src": "/images/backButton.png",
+                "alt": "back button"
               },
               "style": {
                 "webStyle": {
@@ -197,7 +198,7 @@
             {
               "type": "textfield",
               "data": {
-                "placeholder": null,
+                "placeholder": "placeholder",
                 "value": null
               },
               "style": {
@@ -254,14 +255,14 @@
             {
               "type": "textarea",
               "data": {
-                "placeholder": "",
+                "placeholder": "Write your comment here",
                 "value": null
               },
               "style": {
                 "webStyle": {
                   "color": "#3D3935",
                   "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif",
-                  "padding": "8px 0px",
+                  "padding": "8px 8px",
                   "borderStyle": "solid",
                   "borderWidth": "1px",
                   "borderColor": "#392F2C",

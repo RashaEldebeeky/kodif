@@ -3,11 +3,10 @@ import { useState } from "react";
 export default function TextArea({ data, style, styleActions }) {
   const [value, setValue] = useState(data?.value ?? "");
 
-  const placeholder = data?.placeholder;
   return (
     <>
       <textarea
-        placeholder={placeholder}
+        {...data}
         style={{ ...style }}
         {...styleActions}
         value={value}

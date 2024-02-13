@@ -1,7 +1,7 @@
 export default function Button({ data, style, styleActions }) {
   const title = data?.title;
   return (
-    <button style={{ ...style }} {...styleActions}>
+    <button style={{ ...style }} {...styleActions} {...data}>
       {title}
     </button>
   );
